@@ -8,7 +8,7 @@ newline: .asciiz "\n"    # Cadena para el salto de línea
 
 main:
     li $t0, 0             # Inicializa el contador
-    li $t1, 10            # Número de Fibonacci a calcular
+    li $t1, 10            # Números de Fibonacci a calcular
     li $t2, 0             # Inicializa el primer número de Fibonacci
     li $t3, 1             # Inicializa el segundo número de Fibonacci
 
